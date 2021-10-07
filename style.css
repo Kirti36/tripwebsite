@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cookie', cursive;
+}
+.container{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+input, textarea{
+    border: 2px solid rgb(4, 45, 61);
+    border-radius: 10px;
+    outline: none;
+    font-size: 18px;
+        width: 70%;
+        margin: 12px auto;
+        padding: 8px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color:rgb(65, 106, 168);
+    padding: 15px 18px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(7, 19, 73);
+    cursor: pointer;
+}
+.kp{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 1;
+}
+.msg{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
